@@ -1,0 +1,157 @@
+{
+    "format": "app-downloader-backup",
+    "version": 1,
+    "createdAt": 1794442155690,
+    "appVersion": "1.7.1",
+    "settings": {
+        "githubToken": null,
+        "checkIntervalHours": 6,
+        "deleteApkAfterInstall": true,
+        "checkSelfUpdates": true,
+        "scheduleAt": 1794455700000,
+        "scheduleRepeat": "EVERY_4H",
+        "updateOnlyIfChanged": true
+    },
+    "apps": [
+        {
+            "name": ". Silo - TV version .",
+            "autoName": false,
+            "type": "URL",
+            "source": "https://github.com/edrock200/silo-android/raw/apk-builds/silo-tv-hevc-release.apk",
+            "packageName": null,
+            "includePrereleases": false,
+            "assetFilter": null,
+            "autoUpdate": true
+        },
+        {
+            "name": ". Silo - Mobile version .",
+            "autoName": false,
+            "type": "URL",
+            "source": "https://github.com/edrock200/silo-android/raw/apk-builds/silo-phone-hevc-release.apk",
+            "packageName": null,
+            "includePrereleases": false,
+            "assetFilter": null,
+            "autoUpdate": true
+        },
+        {
+            "name": "Muxo - Silo client",
+            "autoName": false,
+            "type": "AFTV_CODE",
+            "source": "6936131",
+            "packageName": null,
+            "includePrereleases": false,
+            "assetFilter": null,
+            "autoUpdate": true
+        },
+        {
+            "name": "Plezilo - Silo client ( ARM )",
+            "autoName": false,
+            "type": "URL",
+            "source": "https://github.com/edrock200/plezo/releases/download/plezilo-android-latest/plezilo-armeabi-v7a.apk",
+            "packageName": null,
+            "includePrereleases": false,
+            "assetFilter": null,
+            "autoUpdate": true
+        },
+        {
+            "name": "Plezilo - Silo client ( ARM64 )",
+            "autoName": false,
+            "type": "URL",
+            "source": "https://github.com/edrock200/plezo/releases/download/plezilo-android-latest/plezilo-arm64-v8a.apk",
+            "packageName": null,
+            "includePrereleases": false,
+            "assetFilter": null,
+            "autoUpdate": true
+        },
+        {
+            "name": "TizenTube - AdFree YouTube for TV",
+            "autoName": false,
+            "type": "GITHUB",
+            "source": "reisxd/TizenTubeCobalt",
+            "packageName": "io.gh.reisxd.tizentube.cobalt",
+            "includePrereleases": false,
+            "assetFilter": "arm",
+            "autoUpdate": true
+        },
+        {
+            "name": "Monet Launcher [Premium]",
+            "autoName": false,
+            "type": "URL",
+            "source": "https://www.dropbox.com/scl/fi/d2x6c2t3bqg9yd1f8f7dl/Monet-v1.1.0-Premium.apk?rlkey=gj8kgp6fiase6sz1oe2d3h1j3&st=n1r0idn0&dl=1",
+            "packageName": "com.klevico.monet",
+            "includePrereleases": false,
+            "assetFilter": null,
+            "autoUpdate": true
+        },
+        {
+            "name": "Analiti - Internet Speed Test [Premium]",
+            "autoName": false,
+            "type": "URL",
+            "source": "https://www.dropbox.com/scl/fi/wu4jaf9y5dlrcptmnzhdb/analiti-v2026.10.99133-Premium.apk?rlkey=4xscca6y099gl8xrbxig1uvu4&st=3h8hl62z&dl=1",
+            "packageName": "com.analiti.fastest.android",
+            "includePrereleases": false,
+            "assetFilter": null,
+            "autoUpdate": true
+        },
+        {
+            "name": "Projectivy Launcher [Premium]",
+            "autoName": false,
+            "type": "URL",
+            "source": "https://www.dropbox.com/scl/fi/qpf4ggfso5q4tf0wqzl2m/Projectivy-Launcher-v4.73-Premium.apk?rlkey=h3jaysakd5axc51yykbzoqlns&st=zjt29fd2&dl=1",
+            "packageName": "com.spocky.projengmenu",
+            "includePrereleases": false,
+            "assetFilter": null,
+            "autoUpdate": true
+        },
+        {
+            "name": "Projectivy Launcher - icon pack",
+            "autoName": false,
+            "type": "URL",
+            "source": "https://www.dropbox.com/scl/fi/xrt3ucgb7jumpm5sd6mpa/Projectivy_Icon_Pack_1.1.9.apk?rlkey=3ma5xp0duysl1i8i2c8mlligv&st=7abpr5jk&dl=1",
+            "packageName": null,
+            "includePrereleases": false,
+            "assetFilter": null,
+            "autoUpdate": true
+        },
+        {
+            "name": "Button Mapper [Premium]",
+            "autoName": false,
+            "type": "URL",
+            "source": "https://www.dropbox.com/scl/fi/cmhegysmigrxouh3rgx1x/Button-Mapper-v4.15-Premium.apk?rlkey=y9zco8rucl13a1hhc894mzb1v&st=s0cma9cu&dl=1",
+            "packageName": null,
+            "includePrereleases": false,
+            "assetFilter": null,
+            "autoUpdate": true
+        },
+        {
+            "name": "Projectivy Launcher - video wallpapers",
+            "autoName": false,
+            "type": "URL",
+            "source": "https://www.dropbox.com/scl/fi/2b3fglz1x7jn0g1txi6el/aerial-views-1.8.5.apk?rlkey=8pshkkq83415r9mlf8vnfmlr7&st=g41q25fs&dl=1",
+            "packageName": null,
+            "includePrereleases": false,
+            "assetFilter": null,
+            "autoUpdate": true
+        },
+        {
+            "name": "Launcher Manager",
+            "autoName": false,
+            "type": "URL",
+            "source": "https://www.dropbox.com/scl/fi/lr5uv3bvyxhpe8qzjeveb/Launcher_Manager.apk?rlkey=slwm2b8zazg7x984lnhuulzkm&st=m6ukbudc&dl=1",
+            "packageName": null,
+            "includePrereleases": false,
+            "assetFilter": null,
+            "autoUpdate": true
+        },
+        {
+            "name": "ADB TV",
+            "autoName": false,
+            "type": "URL",
+            "source": "https://www.dropbox.com/scl/fi/oue38agfkw51iekqqbt8d/adbtv-v1.12-official.apk?rlkey=drvt9jmdo3ommh454x8ixvp5y&st=himlq96s&dl=1",
+            "packageName": null,
+            "includePrereleases": false,
+            "assetFilter": null,
+            "autoUpdate": true
+        }
+    ]
+}
